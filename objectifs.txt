@@ -1,0 +1,12 @@
+- images de meme taille
+
+- hover sur image css
+
+voir github
+constantes desserts, boissons + images
+shema tables
+mysql
+css
+amelioration code
+doc
+fonction test

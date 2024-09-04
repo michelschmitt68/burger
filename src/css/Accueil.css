@@ -1,0 +1,40 @@
+.image-container {
+    position: relative;
+    display: inline-block; /* or use block if you want to fill the parent container */
+  }
+  
+  .image-container img {
+    display: block;
+    width: 100%; /* ajuste la largeur en fonction de vos besoins */
+    height: auto; /* ou une hauteur fixe si nécessaire */
+  }
+  
+  .image-container .image-overlay {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    background-color: #ffffff38;
+    border: solid 3px white;
+    padding: 20px;
+
+  }
+
+  .image-container .image-overlay:hover {
+    background-color: #ffffff7c;
+    cursor: pointer;
+
+  }
+
+  /* .section-title {
+    font-family: 'font1', cursive;
+    font-size: 100px;
+    text-align: center;
+    color: rgb(255, 255, 255); 
+    text-shadow: 0 0 5px rgb(255, 255, 255), 0 0 10px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255), 
+                 0 0 40px rgb(255, 255, 255), 0 0 80px rgb(255, 255, 255), 0 0 120px rgb(255, 255, 255);
+}
+ */

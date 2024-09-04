@@ -1,0 +1,46 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centre verticalement les éléments si nécessaire */
+  background-color: white;
+  box-sizing: border-box; /* Inclut le padding et les bordures dans la largeur totale */
+
+}
+
+
+#root {
+  display: flex;
+  justify-content: center; /* Centre horizontalement */
+  align-items: center; /* Centre verticalement */
+  margin: 0; /* Supprime les marges par défaut */
+  background-color: #f8f9fa
+  ;
+}
+
+
+
+@font-face {
+  font-family: 'font1';
+  src: url('../asserts/fonts/font1.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  color: black;
+  font-size: 24px;
+}
+
+h2 {
+  font-family: 'font1', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,9 @@
+.top-bar{
+    position: fixed;
+    height: 255px;
+    width: 100%;
+    z-index: 1000;
+    left: 0;
+    bottom: 80%;
+    background-color: #23373f;
+}

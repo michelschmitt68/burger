@@ -1,0 +1,45 @@
+.menuList{
+    display: grid;
+    font-family: "Snell Roundhand", cursive;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 50px;
+    gap: 50px;
+    overflow: scroll;
+    height: 1230px;
+}
+
+
+
+.aliment {
+    text-align: center;
+    height: 550px;
+    /* border: solid 5px rgb(107 69 69 / 59%); */
+    box-shadow: 5px 5px 10px rgb(55 41 41);
+    padding: 1.5rem;
+    border-radius: 3%;
+    /* background-color: #f0f1f2; */
+    background: radial-gradient(circle, rgb(6 105 143) 40%, rgb(0 0 0) 100%);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+
+.aliment:hover {
+    transform: translateY(10px); 
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2); 
+    background: radial-gradient(circle, rgb(255 255 255) 10%, rgb(31 101 123) 110%);
+}
+
+.aliment-name {
+    font-size: 50px;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.aliment-price{
+
+    color: rgb(199, 107, 2);
+    font-size: 50px;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+}

@@ -1,0 +1,46 @@
+.buy_item {
+  width: 400px;
+  font-family: "Snell Roundhand", cursive;
+  border: solid 3px rgb(46, 46, 46);
+  padding: 50px;
+  margin-left: 100px;
+}
+
+
+.item {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+  font-size: 18px; 
+}
+
+.item:last-child {
+  border-bottom: none; 
+}
+
+.quantity {
+  font-weight: bold;
+  color: #444;
+  text-align: center;
+  width: 20px; 
+}
+
+
+.buy-item-total {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  font-size: 50px;
+  font-weight: bold; 
+  color: #6b6b6b;
+  text-align: center;
+  align-items: center;
+  border: solid 5px rgb(145, 149, 153);
+  margin-bottom: 50px;
+  border-radius: 3%;
+  cursor: pointer; 
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 700;
+}
